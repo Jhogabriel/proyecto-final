@@ -1,0 +1,75 @@
+footer {
+  background-color: #333; /* Fondo negro */
+  color: #fff; /* Texto blanco */
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-left, .footer-center, .footer-right {
+  flex: 1;
+  margin-right: 20px;
+}
+
+footer h3, footer h4 {
+  margin-bottom: 15px;
+  color: #f3c13b; /* Color amarillo para títulos */
+}
+
+footer h3 span {
+  color: #f3c13b; /* Color para el texto "UNITEK" */
+}
+
+footer p, footer a {
+  color: #ccc; /* Color gris claro para texto y enlaces */
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.social-icons img {
+  width: 100%;
+  height: 100%;
+}
+
+footer a {
+  margin-top: 20px;
+  display: inline-block;
+  color: #f3c13b;
+}
+
+footer .footer-right {
+  margin-top: 30px;
+}
